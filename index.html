@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HealthifyMe Ria Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    #chat-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 400px;
+      height: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+      background: white;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="chat-container">
+    <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js"></script>
+    <langflow-chat
+      window_title="HealthifyMe Ria Chatbot"
+      flow_id="86a3bd0b-7385-4b6c-833a-a8de40ef7600"
+      host_url="http://localhost:7868">
+    </langflow-chat>
+  </div>
+
+</body>
+</html>
