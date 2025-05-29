@@ -60,3 +60,6 @@ prediction = model.predict(input_processed)
 
 st.subheader("Prediction Result 🧠")
 st.success("✅ Loan Approved!" if prediction[0] == 1 else "❌ Loan Not Approved")
+
+
+## This is new comment 

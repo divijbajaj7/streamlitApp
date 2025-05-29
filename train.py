@@ -60,3 +60,6 @@ model_path = "adaboost_model1.pkl"
 preprocessor_path = "preprocessor1.pkl"
 
 
+## this is model training
+
+
